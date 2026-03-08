@@ -1,0 +1,16 @@
+public class _2_Max_ele {
+    public static void main(String[] args) {
+            //Description
+            // Find the maximum element in the array.
+
+            // Sample Input
+            // 6
+            // 3 8 1 9 4 7
+            // Sample Output
+            // 9
+            // Hint
+            // Start with the first element as max and compare it with each next element.
+            Scanner sc=new Scanner(System.in);
+            int n=
+    }
+}
