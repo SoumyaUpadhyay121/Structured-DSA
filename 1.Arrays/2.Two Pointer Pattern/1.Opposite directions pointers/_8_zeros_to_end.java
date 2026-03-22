@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+public class _8_zeros_to_end {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        int n = sc.nextInt();
+        int arr[] = new int[n];
+
+        for(int i = 0; i < n; i++){
+            arr[i] = sc.nextInt();
+        }
+
+        int i = 0;
+        int j = 0;
+
+        while(j < n){
+            if(arr[j] != 0){
+                int temp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = temp;
+                i++; // 🔥 IMPORTANT FIX
+            }
+            j++;
+        }
+
+        for (int k = 0; k < arr.length; k++) {
+            System.out.print(arr[k] + " ");
+        }
+    }
+}
