@@ -20,7 +20,7 @@ public class _8_zeros_to_end {
                 int temp = arr[i];
                 arr[i] = arr[j];
                 arr[j] = temp;
-                i++; // 🔥 IMPORTANT FIX
+                i++;
             }
             j++;
         }
