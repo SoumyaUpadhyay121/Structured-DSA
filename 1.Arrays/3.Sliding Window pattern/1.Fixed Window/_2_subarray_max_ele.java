@@ -12,7 +12,7 @@ public class _2_subarray_max_ele {
         // 3 3 2 5 5
         // Hint
         // Track max element in each window.
-          Scanner sc=new Scanner(System.in);
+        Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
         int arr[]=new int[n];
         for(int i=0;i<n;i++){
