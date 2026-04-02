@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.*;
 
 public class _1_without_repeat_char {
     public static void main(String[] args) {
@@ -15,6 +15,7 @@ public class _1_without_repeat_char {
         String s=sc.next();
 
         int l=0,r=0,maxlen=Integer.MIN_VALUE;
+        HashSet<Character> set=new HashSet<>();
         while(r<s.length()){
             
         }
