@@ -16,8 +16,22 @@ public class _1_without_repeat_char {
 
         int l=0,r=0,maxlen=Integer.MIN_VALUE;
         HashSet<Character> set=new HashSet<>();
-        while(r<s.length()){
-            
+         while (r < s.length()) {
+            char ch = s.charAt(r);
+
+            // If character not in set → expand window
+            if (!set.contains(ch)) {
+                set.add(ch);
+                maxlen = Math.max(maxlen, r - l + 1);
+                r++;
+            } 
+            // If duplicate → shrink window
+            else {
+                set.remove(s.charAt(l));
+                l++;
+            }
         }
+
+        System.out.println(maxlen);
     }
 }

@@ -12,7 +12,8 @@ public class _2_max_1s {
         // 4
         // Hint
         // Track number of zeros in the window.
-         Scanner sc=new Scanner(System.in);
+        
+        Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
         int arr[]=new int[n];
         for(int i=0;i<n;i++){
@@ -24,8 +25,6 @@ public class _2_max_1s {
             if (arr[right] == 0) {
                 zeros++;
             }
-
-            // if too many zeros, shrink window
             while (zeros > k) {
                 if (arr[left] == 0) {
                     zeros--;
