@@ -5,7 +5,6 @@ public class _3_longest_with_k_distinct_num {
             // Description
             // Find the maximum length subarray with at most k distinct numbers.
             // Sample Input
-
             // 7
             // 1 2 1 2 3 3 4
             // 2
@@ -24,7 +23,9 @@ public class _3_longest_with_k_distinct_num {
             HashMap<Integer,Integer> map=new HashMap<>();
             int l=0,r=0,maxlen=Integer.MIN_VALUE,c=0;
             while(r<n){
-                
+                if(!map.containsKey(arr[r])){
+
+                }
             }
         }
 }
