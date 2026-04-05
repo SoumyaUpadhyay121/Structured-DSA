@@ -1,0 +1,30 @@
+import java.util.HashMap;
+import java.util.Scanner;
+
+public class _3_longest_with_k_distinct_num {
+            // Description
+            // Find the maximum length subarray with at most k distinct numbers.
+            // Sample Input
+
+            // 7
+            // 1 2 1 2 3 3 4
+            // 2
+            // Sample Output
+            // 4
+            // Hint
+            // Use a map to track frequencies.
+        public static void main(String[] args) {
+            Scanner sc=new Scanner(System.in);
+            int n=sc.nextInt();
+            int arr[]=new int[n];
+            for(int i=0;i<n;i++){
+                arr[i]=sc.nextInt();
+            }
+            int k=sc.nextInt();
+            HashMap<Integer,Integer> map=new HashMap<>();
+            int l=0,r=0,maxlen=Integer.MIN_VALUE,c=0;
+            while(r<n){
+                
+            }
+        }
+}
