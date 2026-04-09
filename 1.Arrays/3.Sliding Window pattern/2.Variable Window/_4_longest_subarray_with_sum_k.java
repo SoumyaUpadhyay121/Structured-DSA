@@ -14,9 +14,11 @@ public class _4_longest_subarray_with_sum_k {
             Scanner sc=new Scanner(System.in);
             String s=sc.next();
             int k=sc.nextInt();
-            HashSet<Character> set=new HashSet<>();
+            HashMap<Character,Integer> map=new HashMap<>();
             int l=0,r=0,maxlen=0;
             while(r<s.length()){
+                map.put(s.charAt(r),map.getOrDefault(s.charAt(r),0)+1);
+                
                 
             }
     }
