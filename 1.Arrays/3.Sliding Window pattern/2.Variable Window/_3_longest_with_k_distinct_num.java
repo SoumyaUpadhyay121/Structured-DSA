@@ -31,8 +31,8 @@ public class _3_longest_with_k_distinct_num {
                 }
                 l++;
             }
-            maxLen = Math.max(maxLen, r - l + 1);
-        }
-        System.out.println(maxLen);
+                maxLen = Math.max(maxLen, r - l + 1);
+            }
+            System.out.println(maxLen);
         }
 }
