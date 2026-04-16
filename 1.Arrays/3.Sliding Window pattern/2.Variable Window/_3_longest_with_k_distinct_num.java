@@ -12,6 +12,7 @@ public class _3_longest_with_k_distinct_num {
             // 4
             // Hint
             // Use a map to track frequencies.
+            
         public static void main(String[] args) {
             Scanner sc=new Scanner(System.in);
             int n=sc.nextInt();
