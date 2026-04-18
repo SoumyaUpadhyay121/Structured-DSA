@@ -13,6 +13,8 @@ public class _9_subarray_sum_k {
             // 2
             // Hint
             // Expand window while sum ≤ k and shrink if exceeded.
+
+        
             Scanner sc=new Scanner(System.in);
             int n=sc.nextInt();
             int arr[]=new int[n];
