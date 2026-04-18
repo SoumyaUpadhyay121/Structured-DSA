@@ -1,5 +1,4 @@
-import java.util.HashMap;
-import java.util.Scanner;
+import java.util.*;
 
 public class _9_subarray_sum_k {
     public static void main(String[] args) {
