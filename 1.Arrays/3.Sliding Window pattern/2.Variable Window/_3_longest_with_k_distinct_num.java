@@ -1,5 +1,4 @@
-import java.util.HashMap;
-import java.util.Scanner;
+import java.util.*;
 
 public class _3_longest_with_k_distinct_num {
             // Description
