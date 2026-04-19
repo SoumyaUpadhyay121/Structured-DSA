@@ -12,6 +12,7 @@ public class _0_smallest_sum {
         // 2
         // Hint
         // Shrink window once sum reaches target.
+        
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
         int arr[]=new int[n];
