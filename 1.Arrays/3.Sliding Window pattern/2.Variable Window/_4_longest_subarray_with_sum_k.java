@@ -11,6 +11,7 @@ public class _4_longest_subarray_with_sum_k {
             // 7
             // Hint
             // Expand until distinct characters exceed k.
+        
             Scanner sc=new Scanner(System.in);
             String s=sc.next();
             int k=sc.nextInt();
