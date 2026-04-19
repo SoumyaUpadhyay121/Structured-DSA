@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.*;
 
 public class _0_longest_subarray {
     public static void main(String[] args) {
