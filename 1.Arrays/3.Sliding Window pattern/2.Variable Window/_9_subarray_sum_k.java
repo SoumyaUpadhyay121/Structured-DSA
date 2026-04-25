@@ -9,7 +9,7 @@ public class _9_subarray_sum_k {
             // 1 2 3 1 1 1
             // 3
             // Sample Output
-            // 2
+            // 3
             // Hint
             // Expand window while sum ≤ k and shrink if exceeded.
 
