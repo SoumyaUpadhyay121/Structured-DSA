@@ -1,38 +1,32 @@
 import java.util.Scanner;
 
-public class _0_Presum_equal_tar {
+public class _2_count_even {
     public static void main(String[] args) {
         // Description
-        // Determine whether there exists a prefix whose sum equals a given target.
+        // Count how many prefix sums are even.
         // Sample Input
+
         // 5
-        // 2 4 6 3 1
-        // 12
+        // 1 3 2 6 4
         // Sample Output
-        // Yes
+        // 3
         // Hint
-        // Check prefix sum at each index.
+        // Check prefix_sum % 2 == 0
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
         int arr[]=new int[n];
         for(int i=0;i<n;i++){
             arr[i]=sc.nextInt();
         }
-        int tar=sc.nextInt();
+        int c=0;
         int prefix[]=new int[n];
-        boolean flag=false;
         prefix[0]=arr[0];
         for(int i=1;i<n;i++){
             prefix[i]=prefix[i-1]+arr[i];
-            if(prefix[i-1]==tar){
-                System.out.println("Yes");
-                flag=true;
-                break;
+            if(prefix[i-1]%2==0){
+                c++;
             }
         }
-        if(!flag){
-            System.out.println("NO");
-        }
-
+        System.out.println(c);
     }
 }
