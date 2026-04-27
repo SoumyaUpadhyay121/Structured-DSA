@@ -8,7 +8,7 @@ public class _6_sum_greater_10 {
         // 5
         // 2 4 6 1 3
         // Sample Output
-        // 2
+        // 3
         // Hint
         // Track prefix sums during traversal.
         Scanner sc=new Scanner(System.in);
