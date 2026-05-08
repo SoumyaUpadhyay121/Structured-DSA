@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.*;
 
 public class _0_between_range{
     public static void main(String[] args) {
@@ -7,7 +7,6 @@ public class _0_between_range{
         // Sample Input
         // 5
         // 1 2 3 4 5
-
         // 1 3
         // Sample Output
         // 9
@@ -26,6 +25,5 @@ public class _0_between_range{
             sum+=arr[i];
         }
         System.out.println(sum);
-
     }
 }
